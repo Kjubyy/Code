@@ -15,7 +15,7 @@ public class Auktion{
     String minBieter;
 
     static Scanner sc = new Scanner(System.in);
-    DecimalFormat f1 = new DecimalFormat("#,###");
+    DecimalFormat f1 = new DecimalFormat("#.00");
 
     public void eingabe(){
 
