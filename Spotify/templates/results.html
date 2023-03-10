@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>Search Results</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/results.css') }}">
+</head>
+<body>
+    <h1>Search Results</h1>
+    <ul>
+        {% for track in tracks %}
+            <li>{{ track['name'] }} - {{ track['artists'][0]['name'] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
