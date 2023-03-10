@@ -4,7 +4,7 @@ from flask import Flask, request, render_template, send_from_directory
 
 # Replace these values with your own
 CLIENT_ID = '1244d987ccd24a9a98907a43761d0ac9'
-CLIENT_SECRET = 'a52f5f30f92f4eab8bb28463ac6c9934'
+CLIENT_SECRET = 
 REDIRECT_URI = 'http://localhost:3000/callback/'
 SCOPE = 'playlist-modify-public'
 USERNAME = 'lukaspp34'
