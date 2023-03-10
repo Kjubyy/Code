@@ -7,7 +7,7 @@ const port = 3000;
 // Replace with your own client ID and secret
 const spotifyApi = new SpotifyWebApi({
   clientId: '1244d987ccd24a9a98907a43761d0ac9',
-  clientSecret: 'a52f5f30f92f4eab8bb28463ac6c9934',
+  clientSecret:',
 });
 
 app.use(bodyParser.json());
